@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves
+7945 69915387 7945 11555

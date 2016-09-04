@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves n_ls_moves2
+44 432213 44 865 4

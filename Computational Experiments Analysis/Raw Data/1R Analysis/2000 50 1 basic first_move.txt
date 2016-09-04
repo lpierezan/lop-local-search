@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves
+3981 31427555 3981 6971

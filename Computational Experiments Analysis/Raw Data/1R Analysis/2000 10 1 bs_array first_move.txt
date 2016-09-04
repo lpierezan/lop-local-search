@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves
+402 6110622 402 4981

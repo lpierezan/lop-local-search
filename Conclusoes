@@ -1,0 +1,32 @@
+====== Array Imp Analysis ========
+- Para estratégias best move, obviamente, não importa a ordem.
+- Para estratégias first move, a estratégia round-fixed-order gera tempos computacionais muito maiores.
+- Para instâncias esparsas, implementação normal é levemente melhor que bs.
+- Para instâncias densas, implementação bs é significanetemente melhor
+
+====== 85s TL Analysis =======
+Para n = 1000
+
+Qualidade
+) as médias das fo´s na estratégia best não são melhoers que na estratégia first.
+) first roda muito mais vezes gerando melhores soluções.
+) para instâncias densas (50% 100%), basic é melhor. para instâncias menos densas (1% - 10%) bs_array é melhor.
+) como as fo média não parece ser viesada positivamente para best, a qualidade das soluções dependem da quantidade de rodadas.
+) Distância relativa entre fo média e fo max decresce com o tamanho do problema.
+
+Tempo (# Runs em 85s)
+) algoritmos tree e bs_array são muito sensíveis a densidade.
+
+) tree first é mais lento que tree best para 1%+ de densidade. (pq best realiza um número menor de passos!)
+porem isso não impacta na qualidade, tree first mostra qualidade melhor ou igual.
+
+
+#Runs
+) estratégia best dá menos passos que estratégia first.
+
+======= 10R Analysis ============
+Apesar de 10 ser pequeno, a princípio corrobora o fato de que as médias de estratégia best tem viés positivo.
+
+=========== outras ============
+Tree local search algorithm
+) best heap, para a ordem de grandeza de n apresentada, é bom para densidade de 1%, caso contrário é pior que heap.

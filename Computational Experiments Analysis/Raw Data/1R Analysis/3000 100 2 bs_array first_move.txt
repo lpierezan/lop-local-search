@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves
+92622 229132479 92622 13665

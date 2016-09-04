@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves n_ls_moves2
+372 8063673 372 2923 0

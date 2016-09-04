@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves n_ls_moves2
+1243 863079 1241 1838 11

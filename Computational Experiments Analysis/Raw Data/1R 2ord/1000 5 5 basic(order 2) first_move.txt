@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves n_ls_moves2
+761 858667 759 1811 11

@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves n_ls_moves2
+43 54553 42 366 0

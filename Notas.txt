@@ -1,0 +1,90 @@
+Arquivo específico da instância com uma busca:
+n d i ls_name move_strg
+t1 fo1 ls_time n_moves
+t2 fo2 ls_time n_moves
+...
+
+
+é possível ver o desenvolvimento de max(fo) com o tempo.
+correlação de fo com n_moves, fo com ls_time.
+distribuição de n_moves.
+====
+Arquivo report
+
+n d i ls_name move_strg rmr_duration number_of_runs fo_max fo_mean fo_sd n_moves_mean n_moves_sd mean2_round_time
+
+===
+
+1)vazer verificador de solução e fo em inst. (check)
+dado fo e pi, abrir arquivo de instância e verificar que pi gera a fo dada. (check)
+4) avaliar estratégias para que soluções informem a função objetivo sem calcular tudo novamente. (check)
+2) implementar tree com heap para procurar melhor movimento. (check)
+) remover busca local basic best (check)
+3) gerar dados incrimentais no tempo. isso é, repetir análise tom tl *= 2;
+) gerar dados com n = 3000.
+5) gerar dados para analiasr as perguntas abaixo.
+6) selecionar algumas buscas locais e estratégias e incorporar em uma metaheuristica.
+
+
+======================= LS Analisys =========================================
+Perguntas)
+1) O número de passos médio da estratégia best varia com o algoritmo escolhido (para a instância X)?
+2) A estratégia best dá em média menos passos até chegar a um mínimo local?
+            Alg 1 (best)               Alg 2 (first)
+Inst X1   (mean n_moves on 10 ls´s)
+Inst X2
+
+Possivelmente fazer média de índice de instâncias
+          Alg 1           Alg 2
+N,D  mean(v1,v2,...)
+
+3) Os mínimos locais encontrados por best são em média melhroes que os first?
+              Alg1 (first)      Alg2 (best)
+Inst X1   (mean fo for 10 runs)
+Inst X2
+
+4) Limitando tempo, como compara a qualidade de first com best?
+                Alg first                 Alg best
+Inst X1   (mean fo after 85sec )
+Inst X2
+
+* possivelmetne trocar por (mean d_fo after 85sec)
+
+============== ILS =================
+
+
+
+
+=========== Distância entre soluções =================
+5) Medida de distância entre permutações para gerar um fator de clusterização das soluções. É possível?
+Distância entre 2 soluções é a número de arestas v->u em s1 que tem a mesma orientação que s2 divido pelo total
+de arestas do grafo.
+dist(s1,s2)
+
+) A estratégia best gera soluções mais próximas do que a estratégia first?
+Listagem
+Alg dist(s0,s*) fo
+
+)Existe clusterização?
+
+6) Gera bias de qualidade samplear com diversidade utilizando a medida de distância falada?
+
+7) Experimento de comparação de qualidade: dados métodos de busca locais L1 e L2 e instância fixa X.
+Independente do tempo, executamos sucessivas L1 e L2 e anotamos quem foi melhor. No longo prazo
+esse processo deve convergir para a probabilidade de mínino local gerado por L1 ser melhor que mínimo
+local gerado por L2. Poderia ser feito uma simulação análoga para responder "qual a probabilidade de que a
+melhor solução de L1 seja melhor que a melhor solução de L2 após k buscas locais?".
+Essa análise não tem ruído em relação á complexidade de tempo do algoritmo, perfm, etc. A influência
+é na essência do algoritmo, a macro estratégia que define o algoritmo.
+
+8) Poderia se supor um modelo de probabilidade M(OPT) que descrevaa
+distribuição das buscas locais, em função do valor ótimo do problema OPT. A
+medida que foram sendo realizadas buscas locais, o que representam amostras,
+podemos estimar se M(OPT) é um modelo adequado, ou inferir dados de OPT. bounds
+
+
+
+========================================
+Análises antigas:
+Visitar vértices com ordenação fixa gera tempos muito maiores e mesma qualidade de solução.
+Entre algoritmos list o que apresentou melhor tempo foi o de busca binária.

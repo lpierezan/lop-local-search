@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves
+400 6980762 400 7040

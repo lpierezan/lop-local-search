@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves n_ls_moves2
+7317 6922824 7317 7351 0

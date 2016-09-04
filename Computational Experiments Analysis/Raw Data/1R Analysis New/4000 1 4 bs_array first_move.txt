@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves n_ls_moves2
+88 2831600 88 6870 0

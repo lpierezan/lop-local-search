@@ -1,0 +1,2 @@
+fo time ls_time n_ls_moves n_ls_moves2
+3736 6137223 3736 5025 0
