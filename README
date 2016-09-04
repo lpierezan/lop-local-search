@@ -1,7 +1,7 @@
-Implementation of a Linear Ordering Problem Metaheuristc Solver.
+Implementation (and analysis) of a Local Search for the Linear Ordering Problem.
 It begins as the first project of the postgraduate Metaheuristcs course in 04/2016.
 
-It's mainly a local search algorithm based on the pappers:
+The local search algorithm is based on the pappers:
 
 [1] Efficient local search algorithms for the linear ordering problem
 Celso S. Sakuraba and Mutsunori Yagiura
