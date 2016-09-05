@@ -259,6 +259,9 @@ paket-files/
 __pycache__/
 *.pyc
 
-# Mine
+# ==== Mine ====
 *.diagsession
+# Instance data files (too big)
+Instance Data/n*
+
 
