@@ -1,5 +1,5 @@
 Implementation (and analysis) of a Local Search for the Linear Ordering Problem.
-It started as the first project of the postgraduate Metaheuristcs course in 04/2016.
+It started as a project for the postgraduate Metaheuristics course at Puc-Rio in 04/2016.
 
 The local search algorithm is based on the papers:
 
