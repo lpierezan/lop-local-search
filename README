@@ -1,7 +1,7 @@
 Implementation (and analysis) of a Local Search for the Linear Ordering Problem.
-It begins as the first project of the postgraduate Metaheuristcs course in 04/2016.
+It started as the first project of the postgraduate Metaheuristcs course in 04/2016.
 
-The local search algorithm is based on the pappers:
+The local search algorithm is based on the papers:
 
 [1] Efficient local search algorithms for the linear ordering problem
 Celso S. Sakuraba and Mutsunori Yagiura
@@ -9,7 +9,7 @@ and
 [2] The Linear Ordering Problem: Instances, Search Space Analysis and Algorithms.
 TOMMASO SCHIAVINOTTO and THOMAS STÜTZLE
 
-A Treap with Implicity Key representation was used as alternative to [1] data structures.
+A Treap with implicity key representation was implemented as alternative to [1] data structures.
 The Local Search statistics and analysis are the main results of the project.
 
 Selected Instances:
